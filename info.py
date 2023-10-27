@@ -13,9 +13,9 @@ def is_enabled(value, default):
 
 # Bot information
 SESSION = environ.get('SESSION', 'Media_search')
-API_ID = int(environ.get('API_ID', '28284211'))
-API_HASH = environ.get('API_HASH', '6b0afc140b8534c45de9dc77b7d37415')
-BOT_TOKEN = environ.get('BOT_TOKEN', "5634679884:AAH6KjE4JbS5rD3ljyZSJZJx6I-rbz5WYG4")
+API_ID = int(environ.get('API_ID', ''))
+API_HASH = environ.get('API_HASH', '')
+BOT_TOKEN = environ.get('BOT_TOKEN', "")
 
 # Bot settings
 CACHE_TIME = int(environ.get('CACHE_TIME', 300))
@@ -56,9 +56,9 @@ DELETE_CHANNELS = [int(dch) if id_pattern.search(dch) else dch for dch in enviro
 MAX_B_TN = environ.get("MAX_B_TN", "10")
 MAX_BTN = is_enabled((environ.get('MAX_BTN', "True")), True)
 PORT = environ.get("PORT", "8080")
-GRP_LNK = environ.get('GRP_LNK', 'https://t.me/movies_hub_official1')
-CHNL_LNK = environ.get('CHNL_LNK', 'https://t.me/TG_UPDATES1')
-TUTORIAL = environ.get('TUTORIAL', 'https://t.me/TG_UPDATES1/371')
+GRP_LNK = environ.get('GRP_LNK', 'https://t.me/Ott_Movie_Request_Group')
+CHNL_LNK = environ.get('CHNL_LNK', 'https://t.me/main_channel_bot_update')
+TUTORIAL = environ.get('TUTORIAL', 'https://t.me/Ott_Movie_Request_Group')
 IS_TUTORIAL = bool(environ.get('IS_TUTORIAL', True))
 MSG_ALRT = environ.get('MSG_ALRT', 'Hello Nanbha and Nanbis ❤️')
 LOG_CHANNEL = int(environ.get('LOG_CHANNEL', ''))
