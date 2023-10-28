@@ -1,7 +1,7 @@
 if [ -z $UPSTREAM_REPO ]
 then
   echo "Cloning main Repository"
-  git clone https://github.com/Kushalhk/TG_BOTZ.git /TG_BOTZ 
+  git clone https://github.com/sahasudip2006/TG_BOTZ.git /DORAEMON_HD_MOVIE_BOT 
 else
   echo "Cloning Custom Repo from $UPSTREAM_REPO "
   git clone $UPSTREAM_REPO /TG_BOTZ
